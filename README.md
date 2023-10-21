@@ -43,6 +43,13 @@ l'adresse MAC du correspondant est donc 6c-ba-b8-9b-01-40 grâce a un arp -a
 connexion entre deux machines par carte réseau wifi :
 PS C:\netcat-win32-1.11\netcat-1.11> .\nc.exe 10.33.48.37 8833
 
+### 5/
+Envoi d’une requête 'Ping'  1.1.1.1 avec 32 octets de données :
+Réponse de 1.1.1.1 : octets=32 temps=4 ms TTL=64
+Réponse de 1.1.1.1 : octets=32 temps=3 ms TTL=64
+Réponse de 1.1.1.1 : octets=32 temps=4 ms TTL=64
+Réponse de 1.1.1.1 : octets=32 temps=3 ms TTL=64
+
 ### III 1/
 ipconfig /all
 ip wifi d'ynov : 10.33.70.246

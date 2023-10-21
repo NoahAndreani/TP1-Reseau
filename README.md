@@ -26,6 +26,22 @@ Ma nouvelle adresse ip est désormais : 192.168.1.124 (panneau de config ->resea
 
 ### 6/
 si nous utilisons une adresse ip deja utilisée nous n'aurons plus accès a internet étant donné que ce sera l'autre utilisateur (qui avait cette ip avant nous) qui recevra les packets liés a la connexion internet
+### II 1/
+ip changé de 192.168.1.58 a 10.0.2.124
+verifié donc un ip a
+### 2/
+$ ping 10.10.10.24
+Envoi d’une requête 'Ping'  10.0.2.124 avec 32 octets de données :
+Réponse de 10.0.2.124 : octets=32 temps<1ms TTL=128
+Réponse de 10.0.2.124 : octets=32 temps<1ms TTL=128
+Réponse de 10.0.2.124 : octets=32 temps<1ms TTL=128
+Réponse de 10.0.2.124 : octets=32 temps<1ms TTL=128
+### 3/
+l'adresse MAC du correspondant est donc 6c-ba-b8-9b-01-40 grâce a un arp -a
+
+### 4/ 
+connexion entre deux machines par carte réseau wifi :
+PS C:\netcat-win32-1.11\netcat-1.11> .\nc.exe 10.33.48.37 8833
 
 ### III 1/
 ipconfig /all
